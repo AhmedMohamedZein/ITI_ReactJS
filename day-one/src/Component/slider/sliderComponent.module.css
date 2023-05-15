@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgStyle {
+    margin-top: 1em;
+    padding: 9px 15px;
+    width: 30%;
+    height: 15%;
+}
+
+.buttonsBox {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.buttonsBox button {
+    margin: 0.5em;
+    width: 30%;
+    padding: 9px 15px;
+    color: black;
+    font-size: 18px;
+    background-color: #CFB997;
+    border: 2px solid #CFB997;
+}
+
+.buttonsBox button:hover {
+    width: 30%;
+    padding: 9px 15px;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #A9907E;
+    border: 2px solid #CFB997;
+}
